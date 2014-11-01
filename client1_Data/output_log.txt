@@ -1,0 +1,25 @@
+Initialize engine version: 4.5.2f1 (9abb1b59b47c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7600G (ID=0x9908)
+    Vendor:   ATI
+    VRAM:     735 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Unity\game-networking\client1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Unity\game-networking\client1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Unity\game-networking\client1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Unity\game-networking\client1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+- Completed reload, in  0.157 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: C:\Unity\game-networking\client1_Data\Managed\System.dll (this message is harmless)
+The server has disconnected from the client. Most likely the server has shut down.
+ 
+(Filename:  Line: 745)
+
+Disconnected from server: Disconnected
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9F20F967-5348-AB14-1990-9930FA463EA8}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Resources\Audio\Music.cs" />
+     <Compile Include="Assets\Resources\Player Turn Textures\turn order art\Pips\ScoreTracker.cs" />
+     <Compile Include="Assets\Scenes\Working\Player Levels\GrowOnStart.cs" />
+     <Compile Include="Assets\Scenes\Working\Player Levels\InGameRestart.cs" />
+     <Compile Include="Assets\Scenes\Working\Player Levels\MoveDownOnStart.cs" />
+     <Compile Include="Assets\Scenes\Working\Player Levels\MoveUpOnStart.cs" />
+     <Compile Include="Assets\Scenes\Working\Win Screens\RestartButton.cs" />
+     <Compile Include="Assets\Scripts\Character Selec\ChangeSizeAndShift.cs" />
+     <Compile Include="Assets\Scripts\Character Selec\Player.cs" />
+     <Compile Include="Assets\Scripts\Character Selec\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Character Selec\TurnIndicator.cs" />
+     <Compile Include="Assets\Scripts\Networking\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Client\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Client\TileDB.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\PlayerControllers\BlueController.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\PlayerControllers\GreenController.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\PlayerControllers\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\PlayerControllers\RedController.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\PlayerControllers\YellowController.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Arrows.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Board.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Castles.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\CurveCollider.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\GameController.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Grid.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Helper\PositionBottomHelper.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Helper\PositionHelper.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Helper\PositionLeftHelper.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Helper\PositionRightHelper.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Helper\PositionTopHelper.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Knights.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\MoveOnStart.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Stairs.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\StairsCollider.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\TapToMove.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\Tile.cs" />
+     <Compile Include="Assets\Scripts\Scene 1\Server\TileMap.cs" />
+     <Compile Include="Assets\Scripts\Start Screen\MenuScript.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
